@@ -1,0 +1,35 @@
+{
+  "name": "storage-service-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./www/var",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubenaprikyan/storage-service-api.git"
+  },
+  "author": "Ruben Aprikyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubenaprikyan/storage-service-api/issues"
+  },
+  "homepage": "https://github.com/rubenaprikyan/storage-service-api#readme",
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "csvtojson": "^2.0.8",
+    "dotenv": "^8.0.0",
+    "fast-csv": "^2.5.0",
+    "file-type": "^11.1.0",
+    "json2csv": "^4.5.1",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-respond": "^1.0.1",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.11",
+    "randomstring": "^1.1.5",
+    "read-chunk": "^3.2.0"
+  }
+}
