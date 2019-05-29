@@ -6,7 +6,7 @@ const filesRoutes = require('./files');
 
 
 const router = new Router({
-    prefix: '/v1'
+    prefix: '/api/v1'
 });
 
 router.use(filesRoutes.routes());

@@ -5,6 +5,7 @@ const HTTP_STATUS_METHODS = {
     created: 201,
     accepted: 202,
     noContent: 204,
+    unauthorized: 401,
     forbidden: 403,
     notFound: 404,
     internalServerError: 500,
