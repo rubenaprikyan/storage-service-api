@@ -4,7 +4,7 @@
  server {
         listen 80;
 
-        root /var/www/store.minobike.com;
+        root /var/www/sotrage-service;
         index index.html index.htm index.nginx-debian.html;
 
         server_name <name>;
