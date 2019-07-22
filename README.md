@@ -7,7 +7,7 @@
         root /var/www/store.minobike.com;
         index index.html index.htm index.nginx-debian.html;
 
-        server_name store.mimobike.com;
+        server_name <name>;
 
         location / {
                 try_files $uri $uri/ =404;
