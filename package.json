@@ -19,7 +19,7 @@
   "homepage": "https://github.com/rubenaprikyan/storage-service-api#readme",
   "dependencies": {
     "@koa/cors": "^3.0.0",
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "csvtojson": "^2.0.8",
     "dotenv": "^8.0.0",
     "fast-csv": "^2.5.0",
