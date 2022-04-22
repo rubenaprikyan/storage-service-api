@@ -1,6 +1,6 @@
 # NGINX CONFIG FOR HTTP
 ## FOR HTTPS PLS CONFIGURE SSL SERTIFICATE AND 443 PORT
-``
+```
  server {
         listen 80;
 
@@ -21,6 +21,4 @@
         }
 }
 
-
-
-``
+```
